@@ -47,12 +47,15 @@ a:focus {
   color: #2e2f42;
 }
 
+.header-address {
+  font-style: normal;
+}
+
 .header-item-address {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  font-style: normal;
 }
 
 .main {
@@ -78,7 +81,8 @@ a:focus {
   cursor: pointer;
 }
 
-.main-btn:hover {
+.main-btn:hover,
+.main-btn:focus {
   background-color: #404bbf;
 }
 
@@ -102,6 +106,7 @@ a:focus {
 }
 
 .team-title {
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
@@ -132,6 +137,7 @@ a:focus {
 }
 
 .portfolio-title {
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
