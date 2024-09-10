@@ -93,6 +93,10 @@ a:focus {
   color: #2e2f42;
 }
 
+.header-item-link {
+  padding: 24px 0;
+}
+
 .header-address {
   font-style: normal;
 }
