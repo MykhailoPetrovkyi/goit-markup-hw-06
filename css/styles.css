@@ -107,6 +107,12 @@ a:focus {
 .header-item-link {
   padding: 24px 0;
   position: relative;
+  color: #2e2f42;
+}
+
+.header-item-link:hover,
+.header-item-link:active {
+  color: #404bbf;
 }
 
 .header-address {
@@ -126,10 +132,18 @@ a:focus {
   letter-spacing: 0.02em;
 }
 
+.header-address-link {
+  color: #2e2f42;
+}
+.header-address-link:hover,
+.header-address-link:active {
+  color: #404bbf;
+}
+
 .main {
   background-color: #2e2f42;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/people-office.png);
+    url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -168,12 +182,14 @@ a:focus {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-btn:hover,
 .main-btn:focus {
   background-color: #404bbf;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .advantages {
@@ -208,7 +224,6 @@ a:focus {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  margin-top: 8px;
 }
 
 .advantages-item {
@@ -219,10 +234,12 @@ a:focus {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 112px;
   background-color: #f4f4fd;
   border-radius: 4px;
   border: 1px solid #8e8f99;
   padding: 24px 0 24px 0;
+  margin-bottom: 8px;
 }
 
 .advantages-item-text {
@@ -254,7 +271,8 @@ a:focus {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icons-container:hover {
+.icons-container:hover,
+.icons-container:focus {
   background-color: #404bbf;
 }
 
@@ -339,7 +357,8 @@ a:focus {
   transform: translateY(0);
 }
 
-.portfolio-item-container:hover {
+.portfolio-item-container:hover,
+.portfolio-item-container:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16);
 }
@@ -386,7 +405,7 @@ a:focus {
 
 .footer .container {
   display: flex;
-  gap: 120px;
+  align-items: baseline;
 }
 
 .footer-logo {
@@ -434,6 +453,10 @@ a:focus {
   gap: 16px;
 }
 
+.footer-info {
+  margin-right: 120px;
+}
+
 .footer-icons-container {
   background-color: #4d5ae5;
   border-radius: 50%;
@@ -445,6 +468,7 @@ a:focus {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-icons-container:hover {
+.footer-icons-container:hover,
+.footer-icons-container:focus {
   background-color: #31d0aa;
 }
