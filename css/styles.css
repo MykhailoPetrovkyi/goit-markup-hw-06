@@ -490,11 +490,3 @@ a:focus {
 .footer-icons-container:focus {
   background-color: #31d0aa;
 }
-
-.footer-icons {
-  fill: black;
-}
-
-svg {
-  fill: #f4f4fd;
-}
