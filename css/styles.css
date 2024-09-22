@@ -468,7 +468,7 @@ a:focus {
 
 .footer-icons-list {
   display: flex;
-  gap: 24px;
+  gap: 16px;
 }
 
 .footer-info {
