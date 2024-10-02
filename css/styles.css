@@ -16,6 +16,8 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 ul,
@@ -54,7 +56,7 @@ a:focus {
   pointer-events: none;
 }
 
-.menu-overlay.is-open {
+.menu.is-open {
   opacity: 1;
   pointer-events: auto;
 }
@@ -107,11 +109,14 @@ a:focus {
   color: #2e2f42;
 }
 
+.menu-address {
+  margin-bottom: 48px;
+}
+
 .menu-info-list {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  margin-bottom: 48px;
 }
 
 .menu-info-item {
@@ -357,7 +362,7 @@ a:focus {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .advantages-item-text {
@@ -1049,6 +1054,7 @@ a:focus {
   }
 
   .main {
+    max-width: 1440px;
     padding: 188px 0;
   }
 
@@ -1105,6 +1111,7 @@ a:focus {
   .footer .container {
     flex-wrap: nowrap;
     padding: 0;
+    gap: 0;
   }
 
   .footer-info {
